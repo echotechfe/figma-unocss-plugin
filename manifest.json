@@ -1,0 +1,28 @@
+{
+	"name": "Echo-UnoCSS",
+	"id": "1344925190422535938",
+	"api": "1.0.0",
+	"main": "dist/index.js",
+	"capabilities": [
+		"codegen"
+	],
+	"codegenLanguages": [
+		{
+			"label": "Echo-UnoCSS",
+			"value": "html"
+		},
+		{
+			"label": "css",
+			"value": "css"
+		}
+	],
+	"enableProposedApi": false,
+	"editorType": [
+		"dev"
+	],
+	"networkAccess": {
+		"allowedDomains": [
+			"none"
+		]
+	}
+}
