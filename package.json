@@ -16,6 +16,6 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "vue-style-transformer": "^1.0.6"
+    "vue-style-transformer": "^1.1.0"
   }
 }

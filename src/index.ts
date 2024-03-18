@@ -15,14 +15,12 @@ figma.codegen.on('generate', async (e) => {
       ([key, value]) =>
         `${key}: ${value
           .replace(/\/\*.*\*\//g, '')
-          .replace(/var\(--[\w-]*,\s*(.*)\)/g, (_, $1) => $1)
           .trim()}`,
     )
     .map((i) => toUnoCSS(i))
     .filter((i) => !!i)
 
   const unoCode = replaceShortcuts(uno).join(' ')
-
 
   return [
     {

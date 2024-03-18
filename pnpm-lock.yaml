@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   vue-style-transformer:
-    specifier: ^1.0.6
-    version: 1.0.6(vue@3.4.21)
+    specifier: ^1.1.0
+    version: 1.1.0(vue@3.4.21)
 
 devDependencies:
   '@figma/plugin-typings':
@@ -1591,8 +1591,8 @@ packages:
   /vfile-location@3.2.0:
     resolution: {integrity: sha512-aLEIZKv/oxuCDZ8lkJGhuhztf/BW4M+iHdCwglA/eWc+vtuRFJj8EtgceYFX4LRjOhCAAiNHsKGssC6onJ+jbA==}
 
-  /vue-style-transformer@1.0.6(vue@3.4.21):
-    resolution: {integrity: sha512-l6NIujQ6nQs39ky49A8yMCshM1VbxQgVmEgiSRSCGiCiHzA/FgTM6UH77l+Z+u5P/TRRr6QVDzmKF09g/lFHZw==}
+  /vue-style-transformer@1.1.0(vue@3.4.21):
+    resolution: {integrity: sha512-CIMEQgz+ZRaV26nDRN/42Z07EqkRQ4gF3O3GsyX6Lw2j8DQOV9YVICNNq1pMMLmMviH52a1nD5IqYzdoJ993cg==}
     dependencies:
       '@prettier/sync': 0.5.1(prettier@3.2.5)
       '@vue/compiler-sfc': 3.4.21
